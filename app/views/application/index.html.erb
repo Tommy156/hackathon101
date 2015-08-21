@@ -1,0 +1,13 @@
+<p><font size="50">FUCK YOU</font></p>
+
+<tbody>
+	<% Hackathon.all.each do |h| %>
+	  <tr>
+		<%= h.id %>  
+		<%= h.name %> 
+		<%= h.latitude %>
+		<%= h.longtitude %>
+
+	  </tr>
+	<% end %>	
+</tbody>
